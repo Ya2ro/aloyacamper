@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Строительство кемперов на заказ. Кемперы ручной работы, построенные одним мастером. Персонализированный подход, качество и комфорт.">
+  <meta name="keywords" content="строительство кемперов, кемпер на заказ, дома на колесах своими руками">
+  <title>Создайте кемпер своей мечты</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Главный экран -->
+  <section class="hero">
+    <div class="overlay">
+      <h1>Создайте кемпер своей мечты!</h1>
+      <p>Кемперы ручной работы по индивидуальному заказу</p>
+      <a href="#contact" class="cta-button">Получить консультацию</a>
+    </div>
+  </section>
+
+  <!-- О нас -->
+  <section class="about" id="about">
+    <h2>О нас</h2>
+    <p>Мы создаём кемперы с индивидуальным подходом, обеспечивая качество, удобство и надёжность. Все кемперы строятся вручную одним мастером, что гарантирует внимание к деталям и уникальность каждого проекта.</p>
+  </section>
+
+  <!-- Преимущества -->
+  <section class="advantages" id="advantages">
+    <h2>Наши Преимущества</h2>
+    <div class="advantage-list">
+      <div class="advantage-item">
+        <img src="icon1.png" alt="Персонализированный подход">
+        <h3>Персонализированный подход</h3>
+        <p>Мы создаём кемперы, исходя из ваших индивидуальных пожеланий.</p>
+      </div>
+      <div class="advantage-item">
+        <img src="icon2.png" alt="Высокая прочность">
+        <h3>Высокая прочность</h3>
+        <p>Используем только качественные материалы, которые выдержат любые условия.</p>
+      </div>
+      <div class="advantage-item">
+        <img src="icon3.png" alt="Разумная цена">
+        <h3>Разумная цена</h3>
+        <p>Мы предлагаем конкурентные цены, сохраняя высокое качество работы.</p>
+      </div>
+      <div class="advantage-item">
+        <img src="icon4.png" alt="Комфорт">
+        <h3>Качество и комфорт</h3>
+        <p>Наши кемперы обеспечивают максимальный комфорт в дороге.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Портфолио -->
+  <section class="portfolio" id="portfolio">
+    <h2>Наши работы</h2>
+    <div class="gallery">
+      <img src="project1.jpg" alt="Кемпер 1" class="gallery-img">
+      <img src="project2.jpg" alt="Кемпер 2" class="gallery-img">
+      <img src="project3.jpg" alt="Кемпер 3" class="gallery-img">
+    </div>
+  </section>
+
+  <!-- Процесс работы -->
+  <section class="process" id="process">
+    <h2>Как мы работаем</h2>
+    <div class="steps">
+      <div class="step">
+        <img src="idea.png" alt="Идея">
+        <h3>Идея</h3>
+        <p>Вы делитесь своими пожеланиями и идеями.</p>
+      </div>
+      <div class="step">
+        <img src="design.png" alt="Дизайн">
+        <h3>Дизайн</h3>
+        <p>Мы создаём дизайн вашего кемпера.</p>
+      </div>
+      <div class="step">
+        <img src="build.png" alt="Строительство">
+        <h3>Строительство</h3>
+        <p>Наш мастер строит кемпер вручную.</p>
+      </div>
+      <div class="step">
+        <img src="delivery.png" alt="Доставка">
+        <h3>Готовый кемпер</h3>
+        <p>Мы доставляем кемпер, готовый к путешествию.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Отзывы -->
+  <section class="testimonials" id="testimonials">
+    <h2>Отзывы наших клиентов</h2>
+    <div class="testimonial-list">
+      <div class="testimonial-item">
+        <p>"Отличная работа! Кемпер полностью соответствовал нашим ожиданиям. Спасибо!"</p>
+        <h3>- Анонимный клиент</h3>
+      </div>
+      <div class="testimonial-item">
+        <p>"Все было сделано в срок и качественно. Очень доволен результатом!"</p>
+        <h3>- Анонимный клиент</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Форма заявки -->
+  <section class="contact-form" id="contact">
+    <h2>Свяжитесь с нами</h2>
+    <form action="submit_form.php" method="POST">
+      <input type="text" name="name" placeholder="Ваше имя" required>
+      <input type="email" name="email" placeholder="Ваш email" required>
+      <input type="tel" name="phone" placeholder="Ваш телефон" required>
+      <textarea name="comment" placeholder="Ваш комментарий" required></textarea>
+      <button type="submit">Отправить заявку</button>
+    </form>
+  </section>
+
+  <!-- Контакты -->
+  <section class="contact-info">
+    <h2>Наши контакты</h2>
+    <p>Email: info@camper.ru | Телефон: +7 (900) 123-45-67</p>
+    <div id="map"></div> <!-- Карта будет загружаться через JS -->
+    <div class="social-links">
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://youtube.com" target="_blank">YouTube</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Camper Business. Все права защищены.</p>
+    <ul>
+      <li><a href="#">Условия конфиденциальности</a></li>
+      <li><a href="#">Политика возврата</a></li>
+      <li><a href="#">Часто задаваемые вопросы</a></li>
+    </ul>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
